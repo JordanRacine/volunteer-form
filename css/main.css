@@ -10,3 +10,42 @@ header {
   background-color: #70ad55;
   color: #fff;
 }
+
+fieldset {
+  border: 0;
+}
+
+span{
+  color: #70ad55;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before,
+textarea,
+select,
+input {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color: #70ad55;
+  opacity: .4;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.spacegrid div:nth-child(odd) {
+  padding-right: 1.5em;
+}

@@ -11,59 +11,60 @@
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
+
   <header class="gutter-1-2 pad-t pad-b-1-2 push-2">
     <div class="wrapper">
       <h1 class="exa push-1-2 bold">Apply to be a tree planter</h1>
-        <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
+  </header>
+  <form class="wrapper" method="POST" action="https://formspree.io/raci0114@algonquinlive.com">
+    <fieldset class="pad-t-1-2">
+      <legend class="giga bold gutter-1-2 push">Personal details</legend>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
+          <label class="push-1-8" for="name">Full name</label>
+          <input class="push-1-8" id="name" name="name">
+          <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+          <label class="push-1-8" for="text">What should we call you?</label>
+          <input id="text" type="text" name="text">
+          <p class="italic micro">What all your friends call you, e.g. “Liz”. </p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
+          <label class="push-1-8" for="date">Date of birth</label>
+          <input class="push-1-8" id="date" type="date" name="date">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
+          <label for="subject" class="push-1-8">T-shirt size</label>
+          <select id="subject" name="subject">
+            <option value="">Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
+          <label class="push-1-8" for="email">Email</label>
+          <input id="email" type="email" name="email">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2 gutter-1-2">
+          <label class="push-1-8" for="number">Phone number<em class="optional italic"> (optional)</em></label>
+          <input id="number" type="tel" name="number">
+        </div>
       </div>
-    </header>
-    <form class="wrapper" method="POST" action="https://formspree.io/raci0114@algonquinlive.com">
-<feildset class="pas-t-1-2">
-        <legend class="giga bold gutter-1-2 push">Personal details</legend>
-          <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-              <label class="push-1-8" for="name">Full name</label>
-              <input class="push-1-8" id="name" name="name">
-              <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-              </div>
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
-                <label class="push-1-8" for="text">What should we call you?</label>
-                  <input id="text" type="text" name="text">
-                  <p class="italic micro">What all your friends call you, e.g. “Liz”. </p>
-                  </div>
-                  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
-                    <label>Date of birth</label>
-                      <input class="push-1-8" id="date" type="date" name="date">
-                      </div>
-                      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-                        <label for="subject" class="push-1-8">T-shirt size</label>
-                                  <select id="subject" name="subject">
-                                    <option value="">Select a t-shirt size</option>
-                                    <option>Fitted: XS</option>
-                                    <option>Fitted: S</option>
-                                    <option>Fitted: M</option>
-                                    <option>Fitted: L</option>
-                                    <option>Fitted: XL</option>
-                                    <option>Straight-cut: XS</option>
-                                    <option>Straight-cut: S</option>
-                                    <option>Straight-cut: M</option>
-                                    <option>Straight-cut: L</option>
-                                    <option>Straight-cut: XL</option>
-                                  </select>
-                                </div>
-                                <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-                                  <label class="push-1-8" for="email">Email</label>
-                                  <input id="email" type="email" name="email">
-                                </div>
-                                <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-                                  <labelclass="push-1-8" for="number">Phone number</label>
-                                  <input id="number" type="tel" name="number">
-                                </div>
-                              </div>
-                            </feildset>
-                            <hr class="push-2">
-                            <fieldset class="pad-t-1-2">
-                              <legend class="bold giga gutter-1-2 push">Address</legend>
+    </fieldset>
+    <hr class="push-2">
+    <fieldset class="pad-t-1-2">
+      <legend class="bold giga gutter-1-2 push">Address</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
           <div class="push-1-2">
@@ -99,57 +100,56 @@
           </div>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2 gutter-1-2">
-        <div class="push-1-2">
-          <label class="push-1-8" for="postalcode">Postal code</label>
-          <input id="postalcode" name="postalcode">
+          <div class="push-1-2">
+            <label class="push-1-8" for="postalcode">Postal code</label>
+            <input id="postalcode" name="postalcode">
+          </div>
         </div>
       </div>
-    </div>
-  </fieldset>
-  <hr class=" push-2">
-  <fieldset class="pad-t-1-2">
-    <legend class="giga gutter-1-2">What activities are you interested in helping with?</legend>
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-        <div class="push-1-4">
-          <input type="checkbox" id="digging">
-          <label for="digging">Digging holes</label>
+    </fieldset>
+    <hr class=" push-2">
+    <fieldset class="pad-t-1-2">
+      <legend class="giga gutter-1-2">What activities are you interested in helping with?</legend>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+          <div class="push-1-4">
+            <input type="checkbox" id="digging">
+            <label for="digging">Digging holes</label>
+          </div>
+          <div class="push-1-4">
+            <input type="checkbox" id="dirty">
+            <label for="dirty">Getting dirty</label>
+          </div>
+          <div class="push-1-4">
+            <input type="checkbox" id="heavy">
+            <label for="heavy">Lifting heavy objects</label>
+          </div>
+          <div class="push-1-4">
+            <input type="checkbox" id="driving">
+            <label for="driving">Driving people</label>
+          </div>
         </div>
-        <div class="push-1-4">
-          <input type="checkbox" id="dirty">
-          <label for="dirty">Getting dirty</label>
-        </div>
-        <div class="push-1-4">
-          <input type="checkbox" id="heavy">
-          <label for="heavy">Lifting heavy objects</label>
-        </div>
-        <div class="push-1-4">
-          <input type="checkbox" id="driving">
-          <label for="driving">Driving people</label>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+          <div class="push-1-4">
+            <input type="checkbox" id="trees">
+            <label for="trees">Transporting trees</label>
+          </div>
+          <div class="push-1-4">
+            <input type="checkbox" id="photos">
+            <label for="photos">Taking photos</label>
+          </div>
+          <div class="push-1-4">
+            <input type="checkbox" id="publishing">
+            <label for="publishing">Online publishing</label>
+          </div>
+          <div class="push-1-4">
+            <input type="checkbox" id="managing">
+            <label for="managing">Managing people</label>
+          </div>
         </div>
       </div>
-    </div>
-  <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-    <div class="push-1-4">
-      <input type="checkbox" id="trees">
-      <label for="trees">Transporting trees</label>
-    </div>
-    <div class="push-1-4">
-      <input type="checkbox" id="photos">
-      <label for="photos">Taking photos</label>
-    </div>
-    <div class="push-1-4">
-      <input type="checkbox" id="publishing">
-      <label for="publishing">Online publishing</label>
-    </div>
-    <div class="push-1-4">
-      <input type="checkbox" id="managing">
-      <label for="managing">Managing people</label>
-    </div>
-  </div>
-</div>
-</fieldset>
-<fieldset>
+    </fieldset>
+    <fieldset>
       <legend class="giga pad-t-2 gutter-1-2">Do you have any experience with the following?</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
